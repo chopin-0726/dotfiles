@@ -1,0 +1,26 @@
+■移動 normal
+screen : H / L
+page   :C-b / C-f /C-d(半分)
+paragraph : { / }
+word : b / w 
+
+■編集　normal
+undo : u 
+undoをundo: R
+1行分undo : U
+delete : d{act}
+esc ; C-{
+
+
+■編集　insert
+backspace: C-h, C-w(word), C-u(行末まで)
+
+■検索
+
+■Perl
+補完：Ctrl+x, Ctrl+o
+整形：,pt
+実行：\r  or :Quickrun
+
+別のファイルを開く：C-p  　NeoBundle 'kien/ctrlp.vim'
+
